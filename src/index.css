@@ -8,6 +8,6 @@
 
 @layer base {
   body {
-    @apply bg-[#FDFCFB] text-[#1A1A1A] font-sans selection:bg-orange-100;
+    @apply bg-[#050505] text-[#F5F5F5] font-sans selection:bg-orange-600/30;
   }
 }

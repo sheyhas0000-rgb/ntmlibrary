@@ -78,9 +78,19 @@ ${book.impact}
                   </div>
                   <span className="text-[10px] uppercase tracking-[0.4em] font-black text-orange-600">NTMLibrary</span>
                 </div>
-                <h1 className="text-6xl md:text-8xl font-serif font-black tracking-tighter leading-[0.85] uppercase">
-                  Ma'rifat<br/>Arxivi
-                </h1>
+                <div className="flex items-baseline gap-8">
+                  <h1 className="text-6xl md:text-8xl font-serif font-black tracking-tighter leading-[0.85] uppercase">
+                    NTM<br/>Library
+                  </h1>
+                  <div className="flex flex-col">
+                    <span className="text-5xl md:text-7xl font-serif font-black text-orange-600 leading-none">
+                      {booksData.books.length}
+                    </span>
+                    <span className="text-[10px] uppercase tracking-[0.3em] font-black text-gray-700 whitespace-nowrap">
+                      Arxivdagi asarlar
+                    </span>
+                  </div>
+                </div>
               </div>
 
               <div className="relative w-full md:w-80 group">
